@@ -53,7 +53,7 @@ class CourseDetail extends Component {
 
   //function for retreiving the courses ID from the API
   getCourseById = async () => {
-    const response = await fetch(`https://jackson-course-creator-api.herokuapp.com//api/courses/${this.props.id}`, {
+    const response = await fetch(`https://jackson-course-creator-api.herokuapp.com/api/courses/${this.props.id}`, {
       'Content-Type': 'application/json'
     })
     if (response.status === 500) {
@@ -72,7 +72,7 @@ class CourseDetail extends Component {
       this.props.history.push('/signin');
       return
     }
-    fetch(`https://jackson-course-creator-api.herokuapp.com//api/courses/${this.props.id}`, {
+    fetch(`https://jackson-course-creator-api.herokuapp.com/api/courses/${this.props.id}`, {
       method: 'DELETE',
       headers: {
         Authorization: `Basic ${encodedCredentials}`

@@ -39,7 +39,7 @@ class UserSignUp extends Component {
     }
 
     try {
-      const signUpResponse = await fetch('https://jackson-course-creator-api.herokuapp.com//api/users', {
+      const signUpResponse = await fetch('https://jackson-course-creator-api.herokuapp.com/api/users', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
