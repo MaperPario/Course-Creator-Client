@@ -63,7 +63,7 @@ class UpdateCourse extends Component {
     }
 
     try {
-      const response = await fetch(`http://localhost:5000/api/courses/${this.props.id}`, {
+      const response = await fetch(`https://jackson-course-creator-api.herokuapp.com//api/courses/${this.props.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

@@ -37,7 +37,7 @@ export default class App extends Component {
 
   signIn = (emailAddress, password) => {
     const encodedCredentials = btoa(`${emailAddress}:${password}`)
-    return fetch('http://localhost:5000/api/users', {
+    return fetch('https://jackson-course-creator-api.herokuapp.com//api/users', {
       headers: {
         Authorization: `Basic ${encodedCredentials}`
       }
@@ -81,7 +81,7 @@ export default class App extends Component {
   }
 
   fetchCourses = async () => {
-    const response = await fetch('http://localhost:5000/api/courses')
+    const response = await fetch('https://jackson-course-creator-api.herokuapp.com//api/courses')
 
     if (response.status === 500) {
       throw Error('There was a problem with your request. Try again.')
