@@ -1,5 +1,7 @@
 # [Course Creator Client](https://jackson-hagin-portfolio.herokuapp.com/projects/8)
 
+*An application for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating and deleting courses in the database.*
+
 In the project directory, you can run:
 ### `npm install`
 
