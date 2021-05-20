@@ -1,7 +1,4 @@
-# full_stack_app_course_creator
-My Tenth and Final FSJS TechDegree Project!
-
-## Available Scripts
+# [Course Creator Client](https://jackson-hagin-portfolio.herokuapp.com/projects/8)
 
 In the project directory, you can run:
 ### `npm install`
@@ -20,3 +17,5 @@ You will also see any lint errors in the console.
 
 Also, make sure to navigate in another terminal to the "/api" folder and
 run 'npm start' here.
+
+
