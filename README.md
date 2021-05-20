@@ -2,6 +2,9 @@
 
 *An application for users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating and deleting courses in the database.*
 
+**In order for this to run successfully, it has to have a connection to the "Course Creator API" repository.
+Clone that repo, npm install, npm start. The API will be running on localhost:5000.**
+
 In the project directory, you can run:
 ### `npm install`
 
